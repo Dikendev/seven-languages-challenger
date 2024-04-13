@@ -1,2 +1,3 @@
 properties = ['object-oriented', 'duck typed', 'productive', 'fun']
-puts "Ruby is a #{properties.join(', ')} language"
+
+properties.each { | property | puts "Ruby is #{property}"}
