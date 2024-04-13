@@ -23,3 +23,8 @@ bar = /bar/ =~ 'foo bar' # 4
 
 'foo bar' =~ /bar/ # 4
 /baz/ =~ 'foo bar' # nil
+
+data = (1..4).to_a # [1 ,2, 3, 4]
+data.select { |x| x.even?} # [2, 4] 
+
+('a'..'d').to_a # ["a", "b", "c", "d"]
