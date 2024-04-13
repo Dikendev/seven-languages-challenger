@@ -35,3 +35,12 @@ data.select { |x| x.even?} # [2, 4]
 
 ('a'..'d').to_a # ["a", "b", "c", "d"]
 (0...6).to_a # [0, 1, 2, 3, 4, 5]
+
+def print_name_times(string,number_times)
+  number_times.times {puts string}
+end
+
+def print_text_times(number_times)
+  number_times.times { |index| puts "This is sentence number #{index + 1}"}
+end
+print_text_times(10)
