@@ -29,3 +29,12 @@ puts 'This appears to be true if 0' if 0
 puts 'This appears to be true if true' if true
 puts 'This appears to be true if false' if false
 puts 'This appears to be true if nil' if nil
+
+puts true and false
+puts true or false
+puts false && false
+
+puts true && this_will_cause_an_error
+
+puts false && this_will_cause_an_error
+puts true | false
