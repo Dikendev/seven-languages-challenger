@@ -1,7 +1,11 @@
-def substitute_string(string)
+def substitute_first_vowel(string)
   string.sub(/[aeiou]/, '*')
 end
+# "h*llo"
 
-test = 'hello'
-puts substitue_string(test)
+def substitute_all_vowels(string)
+  string.gsub(/[aeiou]/, '*')
+end
 
+sampleString = 'Hello'
+puts substitute_all_vowels(sampleString)
