@@ -1,3 +1,9 @@
+text = "Hello, Ruby"
+def find_first_vowel_index(string, regex)
+  string =~ regex
+end
+# 7
+
 sampleString = 'Hello'
 def substitute_first_vowel(string)
   string.sub(/[aeiou]/, '*')
