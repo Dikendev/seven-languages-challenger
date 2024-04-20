@@ -18,4 +18,14 @@ p :string.object_id
 p :string.object_id
 
 
+def tell_the_truth(options= {})
+  if options[:profession] == :lawyer
+    'It could be believed that this is almost certainly not false.'
+  else
+    true
+  end
+end
+
+p tell_the_truth
+
 
