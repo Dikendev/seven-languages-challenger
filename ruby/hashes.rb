@@ -27,5 +27,6 @@ def tell_the_truth(options= {})
 end
 
 p tell_the_truth
+p tell_the_truth :profession => :lawyer
 
 
