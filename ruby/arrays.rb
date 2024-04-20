@@ -13,5 +13,9 @@ a[0] = 'zero'
 a[1] = 1
 a[2] = ['two', 'things']
 
-print a
-
+a = [1]
+a.push(2)
+a = [1]
+a.push(2)
+a.pop
+a.pop
