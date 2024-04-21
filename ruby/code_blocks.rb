@@ -24,5 +24,10 @@ def pass_block(&block)
   call_block(&block)
 end
 
-pass_block {p 'hira there, kiddo'}
+# pass_block {p 'hira there, kiddo'}
 # This is a good practice to pass a block to another method. It is recommended to do this.
+
+# execute_at_noon { p 'Beep beep ... time to get up'}
+
+p 4.class.superclass.superclass.superclass
+# This is how to find the superclass of a class in Ruby.
